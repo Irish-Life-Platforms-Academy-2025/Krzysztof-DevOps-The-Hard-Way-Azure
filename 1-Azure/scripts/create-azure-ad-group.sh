@@ -1,6 +1,6 @@
 #!/bin/sh
 
-AZURE_AD_GROUP_NAME="devopsthehardway-aks-group"
+AZURE_AD_GROUP_NAME="krzysztofdevopsthehardwayaksgroup"
 CURRENT_USER_OBJECTID=$(az ad signed-in-user show --query id -o tsv)
 
 # Check if Azure AD Group exists
