@@ -1,5 +1,5 @@
 resource "azurerm_network_security_group" "nsg" {
-  name                = "devopsthehardway-nsg"
+  name                = "kkdevopsthehardway-nsg"
   location            = var.location
   resource_group_name = data.azurerm_resource_group.resource_group.name
   tags                = var.tags

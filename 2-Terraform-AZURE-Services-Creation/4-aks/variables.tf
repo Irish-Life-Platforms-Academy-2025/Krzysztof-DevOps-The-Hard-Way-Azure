@@ -1,12 +1,12 @@
 variable "name" {
   type        = string
-  default     = "devopsthehardway"
+  default     = "kkdevopsthehardway"
   description = "Name for resources"
 }
 
 variable "location" {
   type        = string
-  default     = "uksouth"
+  default     = "germanywestcentral"
   description = "Azure Location of resources"
 }
 

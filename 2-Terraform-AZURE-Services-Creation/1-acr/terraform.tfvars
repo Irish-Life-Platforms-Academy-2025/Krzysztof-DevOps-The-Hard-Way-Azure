@@ -1,5 +1,5 @@
-name     = "devopsthehardway"
-location = "uksouth"
+name     = "kkdevopsthehardway"
+location = "germanywestcentral"
 
 tags = {
   "DeployedBy"  = "Terraform"

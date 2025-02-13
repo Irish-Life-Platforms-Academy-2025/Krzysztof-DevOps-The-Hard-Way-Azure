@@ -1,8 +1,8 @@
 terraform {
   required_version = ">= 1.9.6"
   backend "azurerm" {
-    resource_group_name  = "devopshardway-rg"
-    storage_account_name = "devopshardwaysa"
+    resource_group_name  = "krzysztofdevopshardwayrg"
+    storage_account_name = "krzysztofdevopshardwaysa"
     container_name       = "tfstate"
     key                  = "vnet-terraform.tfstate"
   }
@@ -17,6 +17,6 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "04109105-f3ca-44ac-a3a7-66b4936112c3"
+  subscription_id = "168b5162-e625-42f1-994a-dfcfff0433bb"
 
 }

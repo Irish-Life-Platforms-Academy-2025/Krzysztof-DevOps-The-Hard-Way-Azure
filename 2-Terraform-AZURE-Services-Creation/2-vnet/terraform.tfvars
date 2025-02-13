@@ -1,5 +1,5 @@
-name                      = "devopsthehardway"
-location                  = "uksouth"
+name                      = "kkdevopsthehardway"
+location                  = "germanywestcentral"
 network_address_space     = "192.168.0.0/16"
 aks_subnet_address_name   = "aks"
 aks_subnet_address_prefix = "192.168.0.0/24"
